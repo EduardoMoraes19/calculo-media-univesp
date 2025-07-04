@@ -42,9 +42,9 @@ int main(){
     // Resultado final
     if (media_final >= 6.0 && media_final <= 10.0)
     {
-        printf("Você passou nessa materia, sua media é %.2f", media_final);
+        printf("Você passou nessa materia, sua media é %.1f", media_final);
     }else{
-        printf("Você está de exame sua nota foi %.2f", media_final);
+        printf("Você está de exame sua nota foi %.1f", media_final);
     }
     
     return 0;
